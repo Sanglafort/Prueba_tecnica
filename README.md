@@ -4,9 +4,9 @@ Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angu
 
 ## Pasos a seguir
 
--Clonar el proyecto.
--Ejecutar `ng install` para recontruir los módulos de node.
--Ejecutar la aplicación con `npm start` o `ng serve -o` para que se abra en el navegador directamente.
+1. Clonar el proyecto.
+2. Ejecutar `ng install` para recontruir los módulos de node.
+3. Ejecutar la aplicación con `npm start` o `ng serve -o` para que se abra en el navegador directamente.
 
 
 
