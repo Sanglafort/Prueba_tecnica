@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ByCountryPageComponent } from './by-country-page.component';
+import ByCountryPageComponent from './by-country-page.component';
 
 describe('ByCountryPageComponent', () => {
   let component: ByCountryPageComponent;
@@ -11,7 +11,7 @@ describe('ByCountryPageComponent', () => {
       imports: [ByCountryPageComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(ByCountryPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

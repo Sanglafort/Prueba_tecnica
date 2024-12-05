@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ByCapitalPageComponent } from './by-capital-page.component';
+import ByCapitalPageComponent from './by-capital-page.component';
 
 describe('ByCapitalPageComponent', () => {
   let component: ByCapitalPageComponent;
@@ -11,7 +11,7 @@ describe('ByCapitalPageComponent', () => {
       imports: [ByCapitalPageComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(ByCapitalPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
