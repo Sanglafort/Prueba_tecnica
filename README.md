@@ -1,6 +1,6 @@
 # CountriesApp
 
-Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angular-cli) version 19.0.3.
 
 ## Pasos a seguir
 
@@ -10,7 +10,7 @@ Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angu
 
 ## Tests unitarios
 
-En la terminal, lanzar el comando `ng test` para ejecutar los tests unitarios via [Karma] como test runner. Se abrira un navegador con los resultados de los tests.
+En la terminal, lanzar el comando `ng test` para ejecutar los tests unitarios via Karma como test runner. Se abrira un navegador con los resultados de los tests.
 
 
 
