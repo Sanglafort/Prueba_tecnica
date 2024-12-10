@@ -5,10 +5,9 @@ import { Country } from '../../interfaces/country';
 import { CountryTableComponent } from '../../components/country-table/country-table.component';
 
 @Component({
-  selector: 'app-by-capital-page',
-  standalone: true,
-  imports: [SearchBoxComponent, CountryTableComponent],
-  templateUrl: './by-capital-page.component.html',
+    selector: 'app-by-capital-page',
+    imports: [SearchBoxComponent, CountryTableComponent],
+    templateUrl: './by-capital-page.component.html'
 })
 export default class ByCapitalPageComponent implements OnInit {
 

@@ -6,11 +6,10 @@ import { Country } from '../../interfaces/country';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-country-page',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './country-page.component.html',
-  styles: ``
+    selector: 'app-country-page',
+    imports: [CommonModule],
+    templateUrl: './country-page.component.html',
+    styles: ``
 })
 export default class CountryPageComponent implements OnInit {
 

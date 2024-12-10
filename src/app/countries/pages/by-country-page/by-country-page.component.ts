@@ -5,11 +5,10 @@ import { SearchBoxComponent } from '../../../shared/components/search-box/search
 import { CountryTableComponent } from '../../components/country-table/country-table.component';
 
 @Component({
-  selector: 'app-by-country-page',
-  standalone: true,
-  imports: [SearchBoxComponent, CountryTableComponent],
-  templateUrl: './by-country-page.component.html',
-  styles: ``
+    selector: 'app-by-country-page',
+    imports: [SearchBoxComponent, CountryTableComponent],
+    templateUrl: './by-country-page.component.html',
+    styles: ``
 })
 export default class ByCountryPageComponent implements OnInit{
 

@@ -6,11 +6,10 @@ import { CommonModule } from '@angular/common';
 import { Region } from '../../interfaces/region.type';
 
 @Component({
-  selector: 'app-by-regiony-page',
-  standalone: true,
-  imports: [CommonModule, CountryTableComponent],
-  templateUrl: './by-region-page.component.html',
-  styles: ``
+    selector: 'app-by-regiony-page',
+    imports: [CommonModule, CountryTableComponent],
+    templateUrl: './by-region-page.component.html',
+    styles: ``
 })
 export default class ByRegionyPageComponent implements OnInit{
 
